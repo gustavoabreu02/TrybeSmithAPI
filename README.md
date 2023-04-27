@@ -35,10 +35,10 @@ Para alcançar as funcionalidades descritas acima, foram desenvolvidas as seguin
 
 Foram criados alguns endpoints para manipulação dos dados do banco de dados, tais como:
 
-- GET /itens: retorna todos os itens medievais cadastrados
-- POST /itens: cria um novo item medieval
-- PUT /itens/:id: atualiza um item medieval específico
-- DELETE /itens/:id: deleta um item medieval específico
+- /products: endpoint responsável por manipular os dados dos produtos da loja.
+- /login: endpoint responsável pela autenticação de usuários.
+- /users: endpoint responsável por manipular os dados dos usuários da loja.
+- /orders: endpoint responsável por manipular os dados dos pedidos realizados pelos usuários.
 
 ## Executando o projeto
 
