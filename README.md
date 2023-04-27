@@ -1,3 +1,58 @@
-# Readme em construção
+# Projeto TrybeSmith
 
-O README do projeto está sendo desenvolvido atualmente para fornecer informações úteis sobre o projeto em questão. O README é geralmente um arquivo de texto que contém informações importantes sobre o projeto, como o objetivo do projeto, as ferramentas e tecnologias utilizadas, as instruções de instalação e uso, as informações de licenciamento e os créditos para os contribuidores. Desenvolver um README completo e preciso é importante para garantir que outros desenvolvedores possam entender facilmente o projeto e colaborar de forma eficiente. Portanto, é uma parte importante do processo de desenvolvimento de software e deve ser atualizado regularmente para manter as informações precisas e atualizadas.
+Este projeto tem como objetivo criar uma API de uma loja de itens medievais utilizando Typescript.
+
+## Tecnologias Utilizadas
+
+- typescript
+- node.js
+- dotenv
+- express
+- express-async-errors
+- joi
+- join
+- jsonwebtoken
+- mysql2
+
+## Funcionalidades
+
+Através da API desenvolvida será possível realizar as seguintes operações básicas em um banco de dados:
+
+- Criação de novos itens medievais
+- Leitura de itens medievais existentes
+- Atualização de itens medievais
+- Exclusão de itens medievais
+
+## Camadas da Aplicação
+
+Para alcançar as funcionalidades descritas acima, foram desenvolvidas as seguintes camadas da aplicação:
+
+- Models: responsável por definir as entidades do banco de dados
+- Service: responsável por manipular as entidades do banco de dados
+- Controllers: responsável por receber as requisições e fornecer as respostas através dos endpoints
+
+## Endpoints
+
+Foram criados alguns endpoints para manipulação dos dados do banco de dados, tais como:
+
+- GET /itens: retorna todos os itens medievais cadastrados
+- POST /itens: cria um novo item medieval
+- PUT /itens/:id: atualiza um item medieval específico
+- DELETE /itens/:id: deleta um item medieval específico
+
+## Executando o projeto
+
+Para executar o projeto, basta seguir os seguintes passos:
+
+1. Clonar este repositório
+2. Instalar as dependências com o comando `npm install`
+3. Criar um arquivo `.env` com as variáveis de ambiente necessárias para conexão com o banco de dados
+4. Executar o comando `npm run dev` para iniciar o servidor
+
+## Conclusão
+
+Este projeto apresenta uma solução de uma API de uma loja de itens medievais utilizando Typescript e outras tecnologias populares. Sinta-se livre para clonar e utilizar este projeto como base para seus próprios projetos!
+
+## Autores
+
+- [@gustavoabreu02](https://www.github.com/gustavoabreu02)
