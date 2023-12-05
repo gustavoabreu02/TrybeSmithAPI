@@ -1,4 +1,4 @@
-# Projeto TrybeSmith 
+# Projeto TrybeSmith
 
 Este projeto tem como objetivo criar uma API de uma loja de itens medievais utilizando Typescript.
 
